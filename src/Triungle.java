@@ -1,6 +1,10 @@
-public class Triungle extends Figura {
-    public Triungle(int a, int b, int c) {
-        super(a, b, c);
+public class Triungle {
+    double a;
+    double b;
+    double c;
+    public double area (){
+        return (a+b+c)/2;
+
     }
 }
 
